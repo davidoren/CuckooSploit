@@ -1,0 +1,16 @@
+<section id="javascript_hooks">
+    <div class="section-title">
+        <h4>JavaScript Hooks</h4>
+    </div>
+    {% if results.jsh and results.jsh.has_jsh_log %}
+        <table class="table table-striped table-bordered">
+           {% for res in results.jsh.output %}
+                <tr>
+                    <td>{{ res }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        Nothing to display.
+    {% endif %}
+</section>
