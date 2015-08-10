@@ -18,7 +18,7 @@ By using full web emulation on different combinations of OS/browser/plugin versi
 
 CuckooSploit is built upon the [Cuckoo Sandbox](https://github.com/cuckoobox/cuckoo), so all the pre-requisites and configurations must be made according to the [Cuckoo installation guide](http://docs.cuckoosandbox.org/en/latest/installation/).
 
-## Important note
+#### Important note
 According to our experience, IE process might crash or cause all kinds of problems when being injected with cuckoomon.dll while Windows defender and Windows Firewall are on (especially with versions 10/11 of IE). So currently we recommend turning both off (in addition to turning the UAC off for the PCAP emulation).
 
 For enabling PCAP emulation using [CapTipper](https://github.com/omriher/CapTipper), see the following instructions:
